@@ -11,3 +11,9 @@ We are going to deploy this webpage using github pages as we are mainly focousin
 **Images Used In This Project.**, belong to Nick Karvounis you can find his Unsplash Profile here https://unsplash.com/@nickkarvounis
 
 **Fonts family Used In This Project.**  is Synonym it was designed by Indian Type Foundry
+
+### Reflection
+
+---
+
+After working on this project for two days. I realised I forgot to check my code before deployment. As the styles on my local machine and the styles launched on github pages did not match. When I went to check my code I found out I was using old variable names. This ment that the page rendered incorrectly because it called an old variable name that no longer existed.
