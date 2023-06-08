@@ -1,10 +1,9 @@
 :root {
-  --primary-colour: #3882f6;
-  --secondary-colour: #f2f2f2;
-  --accent-colour: #ffb084;
-  --text-colour: #0d0a08;
-  --light-bg-colour: #e5e7eb;
-  --dark-bg-colour: #1f2937;
+  --primary-colour: #416788;
+  --secondary-colour: #e0e0e2;
+  --accent-colour: #81d2c7;
+  --text-colour: #27272a;
+  --background: #f7f7f8;
 }
 
 @font-face {
@@ -76,6 +75,7 @@ p {
   border-radius: 4px;
   color: var(--light-bg-colour);
   background-color: var(--primary-colour);
+  color: var(--background);
   font-weight: 500;
   letter-spacing: 0.01rem;
   text-transform: uppercase;
@@ -87,6 +87,7 @@ p {
   cursor: pointer;
   opacity: 0.9;
   background-color: var(--primary-colour);
+  color: var(--background);
 }
 
 
@@ -111,6 +112,7 @@ p {
   height: auto;
   padding: 1rem;
   border: 1px solid var(--primary-colour);
+  color: var(--background);
 }
 .features .features-container  .features-item  p {
   margin-top: 2rem;
@@ -140,6 +142,7 @@ p {
   justify-content: space-between;
   gap: 2rem;
   background-color: var(--primary-colour);
+  color: var(--background);
 }
 .call-to-action div{
   flex: 1;
@@ -168,10 +171,12 @@ p {
 }
 .cta-inverse {
   background-color: var(--primary-colour);
+  color: var(--background);
   color: var(--text-colour);
 }
 .cta-full-bleed{
   box-shadow: 0 0 0 100vmax var(--primary-colour);
+  color: var(--background);
   clip-path: inset(0 -100vmax);
 }
 footer {
