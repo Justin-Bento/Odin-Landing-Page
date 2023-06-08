@@ -4,6 +4,7 @@
   --accent-colour: #81d2c7;
   --text-colour: #27272a;
   --background: #f7f7f8;
+  --dark-bg-colour: #27272a;
 }
 
 @font-face {
@@ -45,10 +46,59 @@ p {
   margin: 1rem auto;
   max-width: 80rem;
 }
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem;
+  padding: 2rem 0rem;
+  background-color: var(--dark-bg-colour);
+  margin-bottom: 5rem;
+}
+nav div a{
+  color: var(--background);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.0125rem;
+}
+nav ul {
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  margin: 0rem;
+  padding: 0rem;
+  list-style-type: none;
+  color: var(--background);
+  text-decoration: none;
+}
+nav ul li a {
+  margin: 0rem;
+  padding: 0rem;
+  list-style-type: none;
+  color: var(--background);
+  text-decoration: none;
+  opacity: 0.89;
+}
+.appbar-inverse {
+  background-color: var(--dark-bg-colour);
+  color: var(--background);
+  color: var(--text-colour);
+}
+.appbar-full-bleed{
+  box-shadow: 0 0 0 100vmax var(--dark-bg-colour);
+  color: var(--background);
+  clip-path: inset(0 -100vmax);
+}
 .hero {
   display: flex;
   flex-direction: column;
-  padding: 10rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   margin: 1rem 0rem;
   gap: 4rem;
 }
@@ -204,6 +254,11 @@ footer h5 {
     margin: 0rem auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    
   }
   .hero > .hero-media > img {
     width: 720px;
