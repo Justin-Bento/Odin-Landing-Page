@@ -115,6 +115,24 @@ p {
 .features .features-container  .features-item  p {
   margin-top: 2rem;
 }
+.testimonial {
+  margin-bottom: 4rem;
+  padding: 4rem; 
+  background-color: var(--secondary-colour);
+}
+.testimonial h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.testimonial-inverse {
+  background-color: var(--secondary-colour);
+  color: var(--text-colour);
+}
+.testimonial-full-bleed{
+  box-shadow: 0 0 0 100vmax var(--secondary-colour);
+  clip-path: inset(0 -100vmax);
+}
 
 @media (min-width: 1024px) {
   .wrapper {
