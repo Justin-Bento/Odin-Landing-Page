@@ -25,3 +25,19 @@ body {
   margin: 0;
   padding: 0;
 }
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 2rem;
+}
+p {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 1rem;
+}
