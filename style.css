@@ -1,3 +1,12 @@
+:root {
+  --primary-colour: #3882F6;
+  --secondary-colour: #f2f2f2;
+  --accent-colour: #ffb084;
+  --text-colour: #0d0a08;
+  --light-bg-colour: #E5E7EB;
+  --dark-bg-colour: #1F2937;
+}
+
 @font-face {
   font-family: "Synonym Variable";
   font-weight: 100 900;
@@ -14,3 +23,4 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
