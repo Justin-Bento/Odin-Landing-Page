@@ -17,6 +17,7 @@
 }
 
 * {
+  box-sizing: border-box;
   font-family: "Synonym Variable", sans-serif;
 }
 
@@ -44,4 +45,65 @@ p {
 .wrapper {
   margin: 1rem auto;
   max-width: 80rem;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 0rem;
+  margin: 1rem 0rem;
+  gap: 4rem
+}
+.hero-content {
+  flex: 1;
+  max-width: 64ch;
+  padding: 1rem;
+}
+.hero > .hero-content > p {
+  margin-top: 1.125rem;
+  margin-bottom: 2rem;
+  font-size: 1.125rem !important;
+}
+.hero > .hero-media > img {
+  width: min(100%, 45rem);
+  aspect-ratio: auto 16 / 9;
+}
+.hero-media {
+  width: auto;
+  height: auto;
+}
+.btn-primary {
+  border: transparent;
+  border-radius: 4px;
+  color: var(--light-bg-colour);
+  background-color: var(--primary-colour);
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  transition: all;
+  transition-delay: 0.25ms;
+}
+.btn-primary {
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: var(--primary-colour);
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    margin: 0rem auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .hero > .hero-media > img {
+    width: 720px ;
+    aspect-ratio: auto 16 / 9;
+    border: 1px solid var(--accent-colour);
+  }
+  .hero {
+    flex-direction: row;
+    gap: 4rem; 
+    align-items: center;
+  
+  }  
 }
