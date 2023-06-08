@@ -150,6 +150,11 @@ nav ul li a {
   margin-bottom: 4rem;
   text-align: center;
 }
+.feature-icon {
+  stroke-width: 2;
+  max-height: 48px;
+  max-width: 48px;
+}
 .features .features-container  {
   display: flex;
   text-align: center;
@@ -157,15 +162,8 @@ nav ul li a {
   flex-direction: column;
   gap: 4rem;
 }
-.features .features-container  .features-item  span {
-  width: 100%;
-  height: auto;
-  padding: 1rem;
-  border: 1px solid var(--primary-colour);
-  color: var(--background);
-}
 .features .features-container  .features-item  p {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .testimonial {
   padding: 4rem; 
