@@ -174,6 +174,25 @@ p {
   box-shadow: 0 0 0 100vmax var(--primary-colour);
   clip-path: inset(0 -100vmax);
 }
+footer {
+  padding: 2rem;
+  background-color: var(--dark-bg-colour);
+}
+footer h5 {
+  color: var(--light-bg-colour);
+  font-weight: 400;
+  background-color: var(--dark-bg-colour);
+  text-align: center;
+  font-size: 1rem;
+}
+.footer-inverse {
+  background-color: var(--dark-bg-colour);
+  color: var(--text-colour);
+}
+.footer-full-bleed {
+  box-shadow: 0 0 0 100vmax var(--dark-bg-colour);
+  clip-path: inset(0 -100vmax);
+}
 
 @media (min-width: 1024px) {
   .wrapper {
