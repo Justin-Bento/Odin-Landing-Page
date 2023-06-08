@@ -133,6 +133,48 @@ p {
   box-shadow: 0 0 0 100vmax var(--secondary-colour);
   clip-path: inset(0 -100vmax);
 }
+.call-to-action {
+  padding: 4rem;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: var(--primary-colour);
+}
+.call-to-action div{
+  flex: 1;
+  flex-direction: column;
+}
+.call-to-action div h4 {
+  color: var(--light-bg-colour);
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: 24px !important;
+}
+.call-to-action div p {
+  color: var(--light-bg-colour);
+  font-size: 18px !important;
+  opacity: 0.8;
+}
+.call-to-action button{
+  border-radius: 4px;
+  border: 1.5px solid var(--light-bg-colour);
+  background-color: transparent;
+  color: var(--light-bg-colour);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0.9rem 2rem;
+}
+.cta-inverse {
+  background-color: var(--primary-colour);
+  color: var(--text-colour);
+}
+.cta-full-bleed{
+  box-shadow: 0 0 0 100vmax var(--primary-colour);
+  clip-path: inset(0 -100vmax);
+}
 
 @media (min-width: 1024px) {
   .wrapper {
@@ -152,5 +194,9 @@ p {
   }
   .features .features-container {
     flex-direction: row;
+  }
+  .call-to-action {
+    flex-direction: row;
+    align-items: center;
   }
 }
