@@ -57,7 +57,7 @@ nav {
   background-color: var(--dark-bg-colour);
   margin-bottom: 5rem;
 }
-nav div a{
+nav div a {
   color: var(--background);
   text-decoration: none;
   font-size: 18px;
@@ -90,7 +90,7 @@ nav ul li a {
   color: var(--background);
   color: var(--text-colour);
 }
-.appbar-full-bleed{
+.appbar-full-bleed {
   box-shadow: 0 0 0 100vmax var(--dark-bg-colour);
   color: var(--background);
   clip-path: inset(0 -100vmax);
@@ -140,8 +140,6 @@ nav ul li a {
   color: var(--background);
 }
 
-
-
 .features {
   padding: 4rem 0rem;
   margin-bottom: 4rem;
@@ -155,21 +153,21 @@ nav ul li a {
   max-height: 48px;
   max-width: 48px;
 }
-.features .features-container  {
+.features .features-container {
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
   gap: 4rem;
 }
-.features .features-container  .features-item  p {
+.features .features-container .features-item p {
   margin-top: 1rem;
 }
 .testimonial {
-  padding: 4rem; 
+  padding: 4rem;
   background-color: var(--secondary-colour);
 }
-.testimonial h3{
+.testimonial h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 400;
@@ -178,7 +176,7 @@ nav ul li a {
   background-color: var(--secondary-colour);
   color: var(--text-colour);
 }
-.testimonial-full-bleed{
+.testimonial-full-bleed {
   box-shadow: 0 0 0 100vmax var(--secondary-colour);
   clip-path: inset(0 -100vmax);
 }
@@ -192,7 +190,7 @@ nav ul li a {
   background-color: var(--primary-colour);
   color: var(--background);
 }
-.call-to-action div{
+.call-to-action div {
   flex: 1;
   flex-direction: column;
 }
@@ -207,7 +205,7 @@ nav ul li a {
   font-size: 18px !important;
   opacity: 0.8;
 }
-.call-to-action button{
+.call-to-action button {
   border-radius: 4px;
   border: 1.5px solid var(--light-bg-colour);
   background-color: transparent;
@@ -222,7 +220,7 @@ nav ul li a {
   color: var(--background);
   color: var(--text-colour);
 }
-.cta-full-bleed{
+.cta-full-bleed {
   box-shadow: 0 0 0 100vmax var(--primary-colour);
   color: var(--background);
   clip-path: inset(0 -100vmax);
@@ -256,7 +254,6 @@ footer h5 {
   nav {
     display: flex;
     flex-direction: row;
-    
   }
   .hero > .hero-media > img {
     width: 720px;
